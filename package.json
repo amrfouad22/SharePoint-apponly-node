@@ -1,6 +1,6 @@
 {
   "name": "sharepoint-apponly-node",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "This package helps you to get apponly token for sharepoint context",
   "main": "index.js",
   "scripts": {
