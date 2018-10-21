@@ -9,7 +9,8 @@ var sharepoint=require('sharepoint-apponly-node');
 </code>
 2. Execute call to getSharePointAppOnlyAccessToken and get the token response body in the callback
 <code>
-sharepoint.getSharePointAppOnlyAccessToken('https://yoursubdomain.sharepoint.com','YourClientId','YourClientSecret',function(response){
+sharepoint.getSharePointAppOnlyAccessToken('https://yoursubdomain.sharepoint.com',
+'YourClientId','YourClientSecret',function(response){
     console.log(response);
 });
 </code>
